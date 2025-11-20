@@ -1,0 +1,30 @@
+# macOS junk
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Logs
+logs/
+*.log
+
+# Node frontend
+node_modules/
+twitchfe/node_modules/
+twitchfe/build/
+
+# Java backend (Spring Boot / Gradle / Maven)
+Twitch/target/
+Twitch/.gradle/
+Twitch/build/
+Twitch/out/
+
+# Python virtual environment (if exist)
+venv/
+.env
+
+# System / temporary files
+*.swp
+*.tmp
