@@ -37,13 +37,13 @@ This project provides:
 ---
 
 ## System Architecture
-
-Frontend (React)
-↓
-Backend (Spring Boot REST API)
-↓
-MySQL Database
-
+```
+[ React Frontend ]
+          ↓
+[ Spring Boot Backend ]
+          ↓
+[ MySQL Database ]
+```
 ---
 
 ## Project Structure
