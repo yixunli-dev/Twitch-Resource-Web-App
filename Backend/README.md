@@ -50,9 +50,9 @@ external/ → Twitch API integration
 ---
 
 ## How to Run
-
+```
 ./gradlew bootRun
-
+```
 
 ---
 
