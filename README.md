@@ -61,11 +61,11 @@ cd backend
 ./gradlew bootRun
 
 ### Run Frontend
-
+```
 cd frontend
 npm install
 npm start
-
+```
 ---
 
 ## Why This Project
