@@ -25,24 +25,26 @@ This service provides the backend for the Twitch Resource Web App. It handles us
 ---
 
 ## Project Structure
-
+```
 controller/ → REST API endpoints
 service/ → business logic
 repository/ → database access layer
 model/ → entity and DTO definitions
 external/ → Twitch API integration
-
+```
 
 ---
 
 ## API Endpoints (Examples)
 
-POST /login
-POST /register
-GET /items
-POST /favorite
-DELETE /favorite
-GET /recommendation
+| Method | Endpoint | Description |
+|--------|--------|------------|
+| POST   | /login | User login |
+| POST   | /register | User registration |
+| GET    | /items | Fetch items |
+| POST   | /favorite | Add favorite |
+| DELETE | /favorite | Remove favorite |
+| GET    | /recommendation | Get recommendations |
 
 
 ---
